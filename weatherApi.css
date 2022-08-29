@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script:wght@400;500&family=Exo+2&family=Fjalla+One&family=Fredericka+the+Great&family=Kdam+Thmor+Pro&family=Lato:wght@300&family=Old+Standard+TT&family=Oswald:wght@200;400&family=Poppins&family=Saira+Condensed:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #eee;   
+    font-family: 'Fjalla One', sans-serif;
+}
+#mainSection{
+    margin: 10px;
+    height: 95vh;
+    width: 95%;
+    overflow-y: hidden;
+}
+#mainSection article{
+    /* background: url('https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405_1280.jpg'); */
+    height: inherit;
+    display: flex;
+}
+#mainSection article aside:first-child{
+    border-right: 2px solid gray;
+}
+#mainSection article aside:last-child{
+    margin: 0 auto;
+    position: relative;
+}
+#mainSection article aside:last-child figure{
+    position: absolute;
+    left: 350px;
+    top: 90px;
+}
+#mainSection article aside input{
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    margin: 10px;
+}
+#displayAll{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 800px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 20px groove rgb(54, 51, 51);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.504),rgba(255, 255, 255, 0.537),rgba(255, 255, 255, 0.493)),url('./bg-img.webp');
+    background-size: 25%;
+    box-shadow: 30px 40px 50px gray;
+}
+#cityDisplay{
+    font-size: 40px;
+    color: navy;
+    background-color: white;
+}
+#tempDisplay{
+    font-size: 60px;
+    color: brown;
+    background-color: white;
+}
+#appearDisplay{
+    font-size: 30px;
+    color: navy;
+    background-color: white;
+}
+#iconDisplay{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
